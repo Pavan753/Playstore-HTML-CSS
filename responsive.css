@@ -1,0 +1,127 @@
+@media (min-width: 767px) {
+  /*this will overridden by 576px because it is in down
+  it follows css specificity*/
+  * {
+    box-sizing: border-box;
+  }
+  .custom-container {
+    padding-left: 95px !important;
+    padding-right: 95px !important;
+  }
+  .icon-section {
+    margin-top: 80px;
+  }
+  .text-content {
+    flex-direction: row;
+  }
+  .Independence-day-special {
+    display: none;
+  }
+  .india-logo-container p {
+    margin-right: 0px;
+  }
+  .footer-second-section {
+    display: flex;
+  }
+  .footer-second-section p {
+    margin-right: 10px;
+  }
+  .india-logo-container {
+    display: flex;
+    margin-left: auto;
+  }
+  .india-logo-container p {
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+}
+@media (min-width: 1023px) {
+  .Independence-day-special {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .navbar-section1 a {
+    display: none;
+  }
+  .navbar-options {
+    position: fixed;
+    bottom: 0;
+    display: flex; /* if you keep this in any device then only it is visible */
+    align-items: center;
+    background-color: #fff;
+
+    text-align: center;
+  }
+  .navbar-options {
+    padding-right: 10px;
+  }
+  .navbar-options a,
+  i,
+  img {
+    font-weight: bold;
+  }
+
+  .navbar-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .icon-section button {
+    display: flex;
+    margin-top: 40px;
+  }
+  .icon-section div {
+    padding: 0px 0px;
+  }
+  .appstore div img {
+    height: 250px;
+    width: 270px;
+  }
+
+  .icon-section {
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+  .icon-section {
+    margin-top: 85px;
+  }
+  .top-charts h4 {
+    font-size: 15px;
+  }
+  .inner-list img {
+    height: 60px;
+    margin-top: 8px;
+  }
+  .Recommandations img {
+    height: 95px;
+  }
+  .Recommndations-section1 div p,
+  h6 {
+    padding-left: 6px;
+    align-items: center;
+  }
+  .Independence-day-special {
+    display: none;
+  }
+  .footer-second-section {
+    margin-bottom: 90px;
+  }
+  .footer-second-section p {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 12px;
+  }
+  .india-logo-container {
+    display: flex;
+  }
+  .india-logo-container p {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+/*body { 
+  overflow-x: hidden;
+}
+*/
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  /*position: absolute;*/ /* Makes the navbar fixed at the top */
+  position: fixed;
+  top: 0; /* Positions the navbar at the top of the viewport */
+  width: 100%;
+  background-color: white;
+  z-index: 500; /* Keeps the navbar above other elements */
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.navbar-section1 h1 {
+  font-size: 20px;
+  color: #808080;
+}
+.navbar-section1 {
+  display: flex;
+  align-items: center;
+}
+.navbar-section1 a:hover {
+  color: green;
+}
+.navbar-section2 img {
+  margin-right: 20px;
+}
+
+.navbar-options img {
+  stroke: #808080;
+  height: 15px;
+  width: 15px;
+}
+.navbar-options a {
+  color: #808080;
+}
+
+section a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+section a:last-child {
+  margin-right: 0px;
+}
+section img {
+  color: #808080;
+}
+.logo {
+  margin-right: 35px;
+}
+
+.icon-section div {
+  display: flex;
+  border: 1px solid #808080;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #808080;
+  justify-content: center;
+  align-items: center;
+}
+.icon-section a {
+  font-size: 15px;
+}
+.icon-section div:hover {
+  background-color: #f8f9fa;
+}
+.appstore {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  margin-top: 35px;
+  gap: 10px;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+
+.appstore img {
+  display: inline-block;
+  overflow: hidden;
+  width: 520px;
+  height: 390px;
+
+  border-radius: 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.appstore img:hover {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 5px;
+  /* text-transform: none;
+  text-decoration: none; */
+  /* transform: scale(1.1); */
+}
+.button-section {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.button-section div {
+  border-radius: 20px;
+  border: 1px solid #808080;
+  padding: 4px 19px 4px 19px;
+  color: #808080;
+  margin: 15px 15px 0px 0px;
+}
+.button-section div:hover {
+  background-color: #f8f9fa;
+}
+.app-main-section {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  overflow: scroll;
+  scrollbar-width: none;
+  cursor: pointer;
+}
+.app-section {
+  margin-top: 20px;
+}
+.inner-list img {
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-top: 5px;
+  height: 75px;
+}
+.inner-list {
+  font-family: "Roboto";
+  margin-top: 25px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 350px;
+}
+
+.inner-list:hover {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.inner-list div p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #808080;
+  font-weight: 400;
+  font-size: 13px;
+}
+.inner-list div h6:first-child {
+  padding-top: 5px;
+  font-size: 15px;
+  padding-left: 0px;
+  color: #000000a4;
+}
+.app-number {
+  padding: 25px;
+  font-size: 15px;
+}
+.inner-list p:last-child {
+  padding-top: 0px;
+}
+.Recommandations {
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.Recommandations img {
+  height: 135px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+.Recommndations-section1 {
+  display: flex;
+  margin-top: 35px;
+  gap: 10px;
+  overflow: scroll;
+  scrollbar-width: none;
+  align-items: center;
+}
+.Recommndations-section1 div {
+  padding: 15px;
+  border-radius: 10px;
+}
+.Recommndations-section1 div p {
+  font-size: 15px;
+  color: #808080;
+}
+.Recommndations-section1 div h6 {
+  color: #000000a4;
+}
+.Recommndations-section1 div:hover {
+  background-color: #f8f9fa;
+  /* text-decoration: none; */
+  text-transform: none;
+}
+.Recommndations-section1 div p,
+h6 {
+  padding-left: 25px;
+}
+.Premium-apps {
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.Premium-apps img {
+  height: 125px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.inner-list div i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.Recommndations-section1 i {
+  margin-left: 5px;
+  font-size: 11px;
+}
+.Independence-day-special img {
+  border-radius: 15px;
+  height: 310px;
+  width: 100%; /* it will make sure that this image not overflow the container ,
+  it just maintain the width of container */
+  margin-top: 25px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.Independence-day-special img:hover {
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+}
+.my-line {
+  height: 1px;
+  background-color: #808080;
+}
+.footer-first-section {
+  color: #808080;
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-size: 5px;
+  margin-top: 40px;
+}
+.footer-first-section h5 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.footer-first-section p {
+  font-size: 13px;
+  font-weight: 100;
+}
+.footer-second-section p {
+  font-size: 13px;
+  color: #808080;
+}
+.india-logo {
+  height: 19px;
+  width: 18px;
+}
